@@ -31,4 +31,4 @@ Também tem um botão (continue comprado) que direciona para a Tela1(MainPage).
 OBSERVAÇÃO:
 A taxa de entrega é para compras abaixo de R$ 200,00, compras acima não tem taxa de entrega. Sendo assim, o carrinho começa com o valor de R$ 50,00 que foi a taxa definida para a entrega.
 
-
+Refazer README!
