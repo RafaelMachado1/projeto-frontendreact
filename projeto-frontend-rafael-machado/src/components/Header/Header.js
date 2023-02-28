@@ -20,6 +20,7 @@ const Header = ({ pesquisa, setPesquisa, carrinho, mudarTela }) => {
     return (
         <>
             <Container>
+                
                 <div>
                     <img src={logo} alt="astrodev.logo.png" />
                 </div>
