@@ -1,34 +1,68 @@
-Projeto Front-End Ecommerce.
+ # Projeto LabeCommerce
 
-TELA 1 (MainPage)
-input de busca;
+ Esse é o projeto de introdução aos fundamentos do React ao qual o objetivo é que funcione como o front-end de um E-Commerce.
 
-visualização do carrinho que possibilita visualizar um resumo da compra e um botão que direciona para tela 2 (carrinhoPage) onde é possivel concluir a compra;
+ ## Índice
+- <a href="#Funcionalidades do projeto">Funcionalidades do projeto
+- <a href="#Demonstração">Demonstração
+- <a href="#Como Rodar esse Projeto">Como Rodar esse Projeto
 
-Filtros: menor preço, maior preço; 
-Ordenação: alfabética, preço e data, sendo possível colocar crescente ou decrescente;
+- <a href="#Tecnologias Utilizadas">Tecnologias utilizadas
+- <a href="#Pessoas Autoras">Pessoas Autoras
 
-Cards: imagem, nome do produto, preço, data, botão para adicionar e remover do carrinho;
+## Funcionalidades do  projeto
+O projeto consistirá em 3 grandes partes:
 
+1 Home
 
-TELA 2 (CarrinhoPage)
-Aqui é possível:
-Aumentar ou diminuir a quantidade do mesmo item;
+- Renderiza todos os cards dos produtos;
+- Os produtos são ordenados de forma crescente e decrescente por preço, ordem alfabética e data;
+- Os produtos tem um botão que adiciona e exclui do carrinho;
+- Os produtod adicionados são exibidos e um card no canto superior direito, onde tem um pequeno resumo do valor total da comprae um botão que direciona para o carrinho;
 
-visualizar o resumo do pedido com o valor da taxa de entrega e forma de pagamento;
+2 Carrinho
 
-Ao clicar no botão adicionar mais produtos você será direcionado para tela 1;
+- Mostra todos os produtos, quantidades adicionadas;
+- Capacidade de remover e adicionar produtos ao carrinho;
+- Mostra o valor total do carrinho;
+- Possui botão para opção de formas de pagamento;
+- Possui botão para voltar para Home e continuar comprando;
+- Possui botão para concluir a compra;
 
-Ao clicar no botão Concluir compra você será direcionado para tela 3 (Pedido Finalizado com sucesso);
+3 Filtros
+- Por valor mínimo e máximo;
+- Por nome do produto;
 
+## Demonstração 
+[Link demonstração](https://labenu-econmerce-rafael-machado25.surge.sh/)
 
-TELA 3(PedidoFinalizado)
-Aqui é possével visualizar a mensagem "Pedido Feito com Sucesso" e "Seu pedido está a caminho";
+## Como Rodar esse Projeto
+```bash
+# Clone este repositório
+$ git clone linkrepo
 
-Também tem um botão (continue comprado) que direciona para a Tela1(MainPage).
+# Acesse a pasta do projeto no seu terminal
+$ cd projeto-frontend-rafael-machado
 
+#Instale as dependências
+$ npm install
 
-OBSERVAÇÃO:
-A taxa de entrega é para compras abaixo de R$ 200,00, compras acima não tem taxa de entrega. Sendo assim, o carrinho começa com o valor de R$ 50,00 que foi a taxa definida para a entrega.
+# Execute a aplicação
+$ npm start
 
-Refazer README!
+# A aplicação será iniciada na porta 3000, acesse pelo navegador: http://localhost:3000
+```
+## Tecnologias Utilizadas
+1. [React](https://pt-br.reactjs.org/)
+2. [Styled-components](https://styled-components.com/)
+3. [JSX]()
+4. [Componentes]()
+5. [Props]()
+6. [Estado]()
+7. [Fluxo de dados no React]()
+8. [Renderização de listas]()
+9. [Renderização condicional]()
+10. [LocalStorage]()
+
+## Pessoas Autoras
+![Rafael M. Machado](../projeto-frontend-rafael-machado/src/assets/Foto.jpeg)
